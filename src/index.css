@@ -1,0 +1,41 @@
+@import "./_variables.css";
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: variable; /* Use 'variable' for variable font weights */
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: variable;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  min-height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-yellow);
+}
